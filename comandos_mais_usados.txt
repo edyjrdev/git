@@ -26,3 +26,6 @@ git pull
 git branch -M main
 git remote add origin git@github.com:edyjrdev/python3guide.git
 git push -u origin main
+
+# apagar repositorio de uma pasta
+sudo rm -r .git
