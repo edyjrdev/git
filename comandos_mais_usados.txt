@@ -29,3 +29,7 @@ git push -u origin main
 
 # apagar repositorio de uma pasta
 sudo rm -r .git
+
+# erro upstream (nao conseguir subir) - reconectar
+git branch --unset-upstream
+git push --set-upstream origin main
